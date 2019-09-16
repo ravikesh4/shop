@@ -1,0 +1,46 @@
+/* html, body{
+    overflow-x: hidden;
+} */
+.card1:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.sticky-offset-top{
+    margin-top: 80px !important;
+}
+.card1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.card1 {
+    margin-bottom: 1%;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: rgb(184, 181, 181); 
+  }
+
+.header-menu .cart a {
+    text-decoration: none;
+    color: black;
+
+}
+
+@media screen and (max-width: 800px) {
+    .filter {
+        display: none;
+    }
+
+}
+
+.nav-header {
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.a-color {
+    color: white;
+}
