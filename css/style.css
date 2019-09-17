@@ -30,12 +30,7 @@
 
 }
 
-@media screen and (max-width: 800px) {
-    .filter {
-        display: none;
-    }
 
-}
 
 .nav-header {
     background: rgba(0, 0, 0, 0.5); 
@@ -43,4 +38,25 @@
 
 .a-color {
     color: white;
+}
+
+.nav-icon {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .filter {
+        display: none;
+    }
+    .nav-header {
+        display: inherit;
+    }
+
+    .nav-icon {
+        visibility: visible;
+    }
+    .navbar {
+        margin-bottom: -120px
+    }
+
 }
