@@ -105,7 +105,7 @@
                                 <td>Canon M50 Mirrorless Camera </td></a>
                                 <td><i class="fa fa-inr"></i> 15000</td>
                                 <td>Delivered on May 17</td>
-                                <td><a href="#"><i class="fa fa-star"></i> Rate & Review Product</td></a>
+                                <td><a href="#"  data-toggle="modal" data-target="#rating"><i class="fa fa-star"></i> Rate & Review Product</td></a>
                               </tr>
                               <tr>
                                   <td><p class="text-secondary">Ordered On Thu, Aug 15th '19</p></td>
@@ -132,7 +132,7 @@
                                 <td>Canon M50 Mirrorless Camera </td></a>
                                 <td> 15000</td>
                                 <td>Delivered on May 17</td>
-                                <td><a href="#"><i class="fa fa-star"></i> Rate & Review Product</td></a>
+                                <td><a href="#"  data-toggle="modal" data-target="#rating"><i class="fa fa-star"></i> Rate & Review Product</td></a>
                               </tr>
                               <tr>
                                   <td><p class="text-secondary">Ordered On Thu, Aug 15th '19</p></td>
@@ -232,7 +232,49 @@
           </div>
         </div>
       </div>
+
       
+      <!-- Modal -->
+      <div class="modal fade" id="rating" tabindex="-1" role="dialog" aria-labelledby="ratingTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ratingTitle">Give Your Feedback</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <form action="">
+            <div class="modal-body">
+                
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Ratings</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                      <label for="validationTextarea">Feedback</label>
+                      <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                      <div class="invalid-feedback">
+                        Please enter your feedback.
+                      </div>
+                    </div>
+                
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+       
       
       
     <!-- Optional JavaScript -->
